@@ -1,0 +1,50 @@
+[
+    {
+        "doc_name": "Acórdão 733 de 2025 Plenário",
+        "claim_text": "O processo TC 004.980/2017-4 foi iniciado por iniciativa do próprio BNDES, visando a regularização de sua política salarial diante das novas diretrizes do Ministério da Fazenda. A principal conclusão do TCU foi o reconhecimento de que o BNDES é uma estatal dependente da União, o que implica a imediata aplicação do teto remuneratório constitucional a todos os seus empregados, inclusive nas subsidiárias. O acórdão também determinou que o banco restituísse os valores recebidos a título de PLR nos últimos cinco anos por violar os limites legais de remuneração.",
+        "label": "Incorreta",
+        "evidence": "O acórdão do TCU não estabeleceu que o BNDES é uma estatal dependente da União, apenas que o BNDES é sujeito ao teto remuneratório constitucional. Além disso, o acórdão não determinou que o banco restitua os valores recebidos a título de PLR nos últimos cinco anos por violar os limites legais de remuneração, pois não há evidência de que isso tenha ocorrido.",
+        "summary_id": 1,
+        "claim_id": 0
+    },
+    {
+        "doc_name": "Acórdão 733 de 2025 Plenário",
+        "claim_text": "A representação TC 004.980/2017-4, apresentada pela AGU, questionava a atuação do BNDES como empresa de fomento. Segundo o TCU, embora o banco utilize recursos públicos, como os do FAT e FMM, isso não o caracteriza como dependente da União, pois parte dos recursos provém de arrecadação própria. No entanto, o tribunal decidiu que todos os benefícios pagos aos empregados, como vale-transporte e PLR, deveriam ser imediatamente cortados, mesmo os já homologados pela SEST.",
+        "label": "Incorreta",
+        "evidence": "A reivindicação não é suportada pelo contexto, pois o tribunal decidiu que todos os benefícios pagos aos empregados, como vale-transporte e PLR, deveriam ser imediatamente cortados, mas não se refere a qualquer caracterização do BNDES como dependente da União.",
+        "summary_id": 1,
+        "claim_id": 1
+    },
+    {
+        "doc_name": "Acórdão 733 de 2025 Plenário",
+        "claim_text": "O Acórdão 733/2025 trata do pedido do TCU para que o BNDES seja transformado em autarquia, a fim de alinhar sua estrutura ao controle da União. A decisão final determinou o reconhecimento da dependência do banco e o bloqueio do pagamento de bônus futuros, sob pena de nulidade. Ficou evidente que os lucros do banco decorrem majoritariamente de sua competitividade de mercado, o que justifica equiparação aos bancos privados e não aplicação do teto.",
+        "label": "Incorreta",
+        "evidence": "A reivindicação do Acórdão 733/2025 é sobre a transformação do BNDES em autarquia, enquanto o contexto discute a dependência do banco e o bloqueio do pagamento de bônus futuros. A decisão final reconheceu a dependência do banco, mas não houve transformação em autarquia.",
+        "summary_id": 1,
+        "claim_id": 2
+    },
+    {
+        "doc_name": "Acórdão 764 de 2025 Plenário",
+        "claim_text": "O processo TC 024.887/2024-2 foi instaurado pelo Ministério Público junto ao TCU para apurar suposta fraude em licitação no Crea/SP. O objeto da representação era um contrato de aquisição de equipamentos de informática sem licitação, o que motivou o pedido de medida cautelar para suspender o contrato. O TCU, diante da gravidade dos fatos, concedeu a cautelar e determinou a anulação imediata do contrato, identificando direcionamento explícito para a empresa Dell. A decisão foi unânime e com base no Acórdão 1973/2020.",
+        "label": "Incorreta",
+        "evidence": "A decisão do TCU não foi de anulação imediata do contrato, mas sim de conhecimento da representação, satisfeitos os requisitos de admissibilidade, e indeferir o pedido de concessão de medida cautelar formulado pelo representante. Além disso, o contrato já está em andamento, com todos os equipamentos previstos instalados, e está sendo executado a contento.",
+        "summary_id": 2,
+        "claim_id": 0
+    },
+    {
+        "doc_name": "Acórdão 764 de 2025 Plenário",
+        "claim_text": "O processo TC 024.887/2024-2 refere-se a questionamentos sobre um contrato firmado entre o Crea/SP e a empresa HP para fornecimento de notebooks por meio de dispensa de licitação. A empresa Convex alegou que os preços estavam acima da média de mercado, mas o TCU concluiu que todas as exigências técnicas eram justificáveis e que a contratação deveria prosseguir normalmente, inclusive com possibilidade de prorrogação. Não houve qualquer recomendação ou ciência determinada ao órgão.",
+        "label": "Incorreta",
+        "evidence": "A reivindicação não é suportada pelo contexto, pois o processo TC 024.887/2024-2 não se refere a um processo de questionamento sobre um contrato firmado entre o Crea/SP e a empresa HP para fornecimento de notebooks por meio de dispensa de licitação. Em vez disso, o processo se refere a questionamentos sobre irregularidades ocorridas no Pregão Eletrônico para Registro de Preços.",
+        "summary_id": 2,
+        "claim_id": 1
+    },
+    {
+        "doc_name": "Acórdão 764 de 2025 Plenário",
+        "claim_text": "No Acórdão 764/2025, o Tribunal de Contas da União analisou um caso envolvendo a compra direta de equipamentos pelo Crea/SP, tendo sido identificado superfaturamento e ausência de pesquisa de preços. O TCU concluiu que houve dano ao erário, determinou o ressarcimento imediato pela empresa contratada e recomendou ao Crea/SP a adoção de software livre para futuras contratações, evitando a dependência de fornecedores específicos.",
+        "label": "Incorreta",
+        "evidence": "A reivindicação não é suportada pelo contexto, pois o caso analisado pelo TCU no Acórdão 764/2025 envolveu uma compra direta de equipamentos, enquanto o caso analisado no contexto fornecido envolveu uma licitação.",
+        "summary_id": 2,
+        "claim_id": 2
+    }
+]
