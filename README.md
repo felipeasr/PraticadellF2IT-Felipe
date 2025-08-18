@@ -1,6 +1,7 @@
 # Desafio Técnico - Validação de Resumos de Acórdãos (Gen AI)
 
 ## Objetivo
+
 Desenvolva uma solução baseada em modelos open-source (como LLaMA, Mistral, etc.) para analisar se as reivindicações feitas em um resumo de um acórdão do TCU (Tribunal de Contas da União) são verdadeiras com base no conteúdo do documento original.
 A cada parágrafo do resumo, sua tarefa é avaliar a veracidade das afirmações, fornecendo justificativas.
 Insumos
@@ -10,55 +11,28 @@ Insumos
 
 Os resumos não têm estrutura fixa e podem conter qualquer tipo de afirmação (tributária, contratual, processual etc.).
 
-## Entrega esperada
-Um repositório GitHub contendo:
-1. Um notebook (.ipynb) ou script Python que:
-* Lê um documento original e seu respectivo resumo;
-* Identifica as reivindicações no resumo;
-* Avalia cada reivindicação como:
-    1. Correta
-    2. Incorreta, com justificativa baseada no trecho correspondente
-* Utiliza modelo open-source (ex: LLaMA 2 7B, Mistral, Phi-2 etc.);
-2.	Um único JSON com análise de cada reivindicação para cada resumo:
+## Resultado
 
-```json
-[
-    {
-        "doc_name": "Acórdão 733 de 2025 Plenário",
-        "claim_text": "O banco...",
-        "label": "Correta",
-        "evidence": "Reinvidicação correta, pois...",
-        "summary_id": 1,
-        "claim_id": 0 // Id sequencial, incremental, iniciando em 0
-    },
-    {
-        "doc_name": "Acórdão 733 de 2025 Plenário",
-        "claim_text": "O agente...",
-        "label": "Incorreta",
-        "evidence": "Justificativa...",
-        "summary_id": 1,
-        "claim_id": 1
-    }
-]
-```
+o a gente Identificou 24 reividica;óes aonde , definiu 19 como incorretas e 5 como corretas
 
-## Requisitos técnicos
-* Utilizar apenas modelos e bibliotecas de código aberto (pode ser HuggingFace, GGUF + llama.cpp, etc.).
-* O código deve rodar localmente (CPU ou GPU), contudo, podendo utilizar provedores externos para consumir LLMs.
+Foi utilizado o modelo **[`mistralai/Mistral-7B-Instruct-v0.3`]()** para atuar como um  **analista jurídico automatizado** , capaz de identificar e avaliar reivindicações em resumos de processos.
 
-## Análises e limitações
+#### Estratégias Utilizadas
 
-Providencie uma análise quantitativa e qualitativa do método proposto.
-Identifique e apresente as métricas escolhidas.
+* FAISS (Facebook AI Similarity Search): empregado para indexação e busca vetorial, facilitando a recuperação de contextos relevantes e tornando as análises mais rápidas e escaláveis.(vi em aula e achei interessante empregar aqui)
+* Few-Shot: prompts foram estruturados com exemplos, aumentando a precisão do modelo na classificação das reivindicações(no primeiro momento ele usou as revidicações como evidencia).
+* Extração e Análise: dividido em etapas (detecção de reivindicações → avaliação com contexto → output).
 
-## Critério de avaliação
+#### Funções Criadas
 
-Serão priorizados: (i) robustez da avaliação (correta/incorreta), (ii) clareza do código, (iii) eficiência de tokens.
+extrair_reivindicacoes(texto_resumo)
 
-## Objetivo extra
+Responsável por identificar automaticamente reivindicações em um resumo jurídico em txt.
 
-Resolver o desafio com o menor número de tokens (entrada + saída) possível.
+analisar_reivindicacao_com_contexto(reivindicacao, contexto)
 
-## Dica
+Avalia se uma reivindicação no resumo txt  é suportada ou não pelo contexto fornecido em pdf, retornando rótulos como Correta ou Incorreta.
 
-A frase "O TCU anulou o contrato e aplicou multa de R$ 500 mil ao consórcio" possui <b>duas</b> reivindicações.
+Funções auxiliares
+
+Criadas para formatar os prompts, tratar os resultados do modelo e integrar com o FAISS, garantindo que as respostas estejam em formato JSON de acordo com desafio.

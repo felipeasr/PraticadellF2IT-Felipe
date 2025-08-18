@@ -1,50 +1,194 @@
 [
     {
         "doc_name": "Acórdão 733 de 2025 Plenário",
-        "claim_text": "O processo TC 004.980/2017-4 foi iniciado por iniciativa do próprio BNDES, visando a regularização de sua política salarial diante das novas diretrizes do Ministério da Fazenda. A principal conclusão do TCU foi o reconhecimento de que o BNDES é uma estatal dependente da União, o que implica a imediata aplicação do teto remuneratório constitucional a todos os seus empregados, inclusive nas subsidiárias. O acórdão também determinou que o banco restituísse os valores recebidos a título de PLR nos últimos cinco anos por violar os limites legais de remuneração.",
-        "label": "Correta",
-        "evidence": "O processo TC 004.980/2017-4 confirmou que o BNDES é uma estatal dependente da União, o que obrigaria a aplicação do teto remuneratório constitucional a todos os seus empregados, incluindo nas subsidiárias. O acórdão também determinou que o banco devolvesse os valores recebidos a título de PLR nos últimos cinco anos por violar os limites legais de remuneração, de acordo com as diretrizes do Ministério da Fazenda.",
-        "summary_id": 1,
-        "claim_id": 0
-    },
-    {
-        "doc_name": "Acórdão 733 de 2025 Plenário",
-        "claim_text": "A representação TC 004.980/2017-4, apresentada pela AGU, questionava a atuação do BNDES como empresa de fomento. Segundo o TCU, embora o banco utilize recursos públicos, como os do FAT e FMM, isso não o caracteriza como dependente da União, pois parte dos recursos provém de arrecadação própria. No entanto, o tribunal decidiu que todos os benefícios pagos aos empregados, como vale-transporte e PLR, deveriam ser imediatamente cortados, mesmo os já homologados pela SEST.",
+        "claim_text": "O processo TC 004.980/2017-4 foi iniciado por iniciativa do próprio BNDES.",
         "label": "Incorreta",
-        "evidence": "De acordo com a decisão do TCU, a representação TC 004.980/2017-4, apresentada pela AGU, questionava a atuação do BNDES como empresa de fomento. O TCU determinou que, embora o banco utilize recursos públicos, como os do FAT e FMM, isso não o caracteriza como dependente da União, pois parte dos recursos provém de arrecadação própria. No entanto, o tribunal decidiu que todos os benefícios pagos aos empregados, como vale-transporte e PLR, deveriam ser imediatamente cortados, mesmo os já homologados pela SEST.",
+        "evidence": "O texto não apresenta nenhuma informação que sugere que o processo TC 004.980/2017-4 foi iniciado por iniciativa do próprio BNDES. Em vez disso, o texto apresenta uma análise realizada pelo BNDES e por outras entidades, como a SecexEstataisRJ e o Tribunal de Contas da União (TCU).",
+        "summary_id": 1,
+        "claim_id": 0
+    },
+    {
+        "doc_name": "Acórdão 733 de 2025 Plenário",
+        "claim_text": "A principal conclusão do TCU foi o reconhecimento de que o BNDES é uma estatal dependente da União.",
+        "label": "Correta",
+        "evidence": "A principal conclusão do TCU foi o reconhecimento de que o BNDES é uma estatal dependente da União. (TC 004.980/2017-4)",
         "summary_id": 1,
         "claim_id": 1
     },
     {
         "doc_name": "Acórdão 733 de 2025 Plenário",
-        "claim_text": "O Acórdão 733/2025 trata do pedido do TCU para que o BNDES seja transformado em autarquia, a fim de alinhar sua estrutura ao controle da União. A decisão final determinou o reconhecimento da dependência do banco e o bloqueio do pagamento de bônus futuros, sob pena de nulidade. Ficou evidente que os lucros do banco decorrem majoritariamente de sua competitividade de mercado, o que justifica equiparação aos bancos privados e não aplicação do teto.",
-        "label": "Erro",
-        "evidence": "Bloco JSON não encontrado na resposta do modelo.",
+        "claim_text": "O acórdão também determinou que o banco restituísse os valores recebidos a título de PLR nos últimos cinco anos por violar os limites legais de remuneração.",
+        "label": "Incorreta",
+        "evidence": "O contexto não suporta a afirmação de que o acórdão determinou que o banco restitua os valores recebidos a título de PLR nos últimos cinco anos por violar os limites legais de remuneração. Em vez disso, o contexto apenas menciona que a Súmula 106 e a jurisprudência do Tribunal de Contas da União reconhecem que não deve ser objeto de devolução os valores recebidos de boa fé.",
         "summary_id": 1,
         "claim_id": 2
     },
     {
-        "doc_name": "Acórdão 764 de 2025 Plenário",
-        "claim_text": "O processo TC 024.887/2024-2 foi instaurado pelo Ministério Público junto ao TCU para apurar suposta fraude em licitação no Crea/SP. O objeto da representação era um contrato de aquisição de equipamentos de informática sem licitação, o que motivou o pedido de medida cautelar para suspender o contrato. O TCU, diante da gravidade dos fatos, concedeu a cautelar e determinou a anulação imediata do contrato, identificando direcionamento explícito para a empresa Dell. A decisão foi unânime e com base no Acórdão 1973/2020.",
+        "doc_name": "Acórdão 733 de 2025 Plenário",
+        "claim_text": "A representação TC 004.980/2017-4, apresentada pela AGU, questionava a atuação do BNDES como empresa de fomento.",
         "label": "Correta",
-        "evidence": "O processo TC 024.887/2024-2 foi instaurado pelo Ministério Público junto ao TCU para apurar suposta fraude em licitação no Crea/SP. O objeto da representação era um contrato de aquisição de equipamentos de informática sem licitação, o que motivou o pedido de medida cautelar para suspender o contrato. O TCU, diante da gravidade dos fatos, concedeu a cautelar e determinou a anulação imediata do contrato, identificando direcionamento explícito para a empresa Dell. A decisão foi unânime e com base no Acórdão 1973/2020.",
+        "evidence": "O texto apresenta que a representação TC 004.980/2017-4 questionava a atuação do BNDES como empresa de fomento.",
+        "summary_id": 1,
+        "claim_id": 3
+    },
+    {
+        "doc_name": "Acórdão 733 de 2025 Plenário",
+        "claim_text": "Segundo o TCU, embora o banco utilize recursos públicos, como os do FAT e FMM, isso não o caracteriza como dependente da União, pois parte dos recursos provém de arrecadação própria.",
+        "label": "Correta",
+        "evidence": "O texto do contexto indica que o BNDES obtém recursos por meio de operações de crédito, em que o tomador dos recursos paga uma taxa destinada à cobertura da remuneração, das despesas administrativas e operacionais e do risco de crédito. Além disso, o BNDES também obtém ganhos com a aplicação financeira dos valores mantidos em disponibilidades, enquanto não utilizados em financiamentos. Esses recursos provém inteiramente do tomador dos recursos, não sendo eles repassados pelo governo.",
+        "summary_id": 1,
+        "claim_id": 4
+    },
+    {
+        "doc_name": "Acórdão 733 de 2025 Plenário",
+        "claim_text": "No entanto, o tribunal decidiu que todos os benefícios pagos aos empregados, como vale-transporte e PLR, deveriam ser imediatamente cortados, mesmo os já homologados pela SEST.",
+        "label": "Incorreta",
+        "evidence": "O texto não apoia a afirmação de que todos os benefícios pagos aos empregados, como vale-transporte e PLR, deveriam ser imediatamente cortados, mesmo os já homologados pela SEST. A reivindicação é contradita pelo fato de que o texto não menciona nenhum benefício específico, nem vale-transporte nem PLR, e nem indica que todos os benefícios deveriam ser cortados.",
+        "summary_id": 1,
+        "claim_id": 5
+    },
+    {
+        "doc_name": "Acórdão 733 de 2025 Plenário",
+        "claim_text": "O Acórdão 733/2025 trata do pedido do TCU para que o BNDES seja transformado em autarquia.",
+        "label": "Incorreta",
+        "evidence": "O texto não apresenta nenhuma informação sobre a transformação do BNDES em autarquia. A reivindicação é incorreta.",
+        "summary_id": 1,
+        "claim_id": 6
+    },
+    {
+        "doc_name": "Acórdão 733 de 2025 Plenário",
+        "claim_text": "A decisão final determinou o reconhecimento da dependência do banco.",
+        "label": "Incorreta",
+        "evidence": "O contexto não suporta a afirmação de que a decisão final determinou a dependência do banco. Em vez disso, o texto discute a questão da sujeição ou não dos empregados do BNDES ao teto constitucional, mas não menciona a dependência do banco em si.",
+        "summary_id": 1,
+        "claim_id": 7
+    },
+    {
+        "doc_name": "Acórdão 733 de 2025 Plenário",
+        "claim_text": "Ficou evidente que os lucros do banco decorrem majoritariamente de sua competitividade de mercado.",
+        "label": "Incorreta",
+        "evidence": "O contexto não apoia a afirmação de que os lucros do banco decorrem majoritariamente de sua competitividade de mercado. Em vez disso, o texto aponta para uma influência decisiva do Governo Federal para o atingimento do resultado do banco, como a concessão de recursos com taxas reduzidas e prazos diferenciados, as decisões de políticas de fomento por meio da concessão de empréstimos a juros subsidiados, o que faz com que o número de operações do banco cresça de forma muito acima do esperado em situações normais de mercado.",
+        "summary_id": 1,
+        "claim_id": 8
+    },
+    {
+        "doc_name": "Acórdão 733 de 2025 Plenário",
+        "claim_text": "O bloqueio do pagamento de bônus futuros, sob pena de nulidade.",
+        "label": "Incorreta",
+        "evidence": "O contexto não suporta a afirmação de que o bloqueio do pagamento de bônus futuros, sob pena de nulidade. Não há nenhum trecho do texto que indique que houve algum bloqueio de bônus futuros ou que houve qualquer menção a nulidade.",
+        "summary_id": 1,
+        "claim_id": 9
+    },
+    {
+        "doc_name": "Acórdão 764 de 2025 Plenário",
+        "claim_text": "O processo TC 024.887/2024-2 foi instaurado pelo Ministério Público junto ao TCU para apurar suposta fraude em licitação no Crea/SP.",
+        "label": "Incorreta",
+        "evidence": "O texto não apresenta evidências de fraude em licitação no Crea/SP. Em vez disso, o texto discute uma representação feita por Sistemas Convex Locações de Produtos de Informática Ltda. sobre possíveis irregularidades ocorridas no Pregão Eletrônico para Registro de Preços 7/2024, promovido pelo Conselho Regional de Engenharia e Agronomia do Estado de São Paulo (Crea/SP).",
         "summary_id": 2,
         "claim_id": 0
     },
     {
         "doc_name": "Acórdão 764 de 2025 Plenário",
-        "claim_text": "O processo TC 024.887/2024-2 refere-se a questionamentos sobre um contrato firmado entre o Crea/SP e a empresa HP para fornecimento de notebooks por meio de dispensa de licitação. A empresa Convex alegou que os preços estavam acima da média de mercado, mas o TCU concluiu que todas as exigências técnicas eram justificáveis e que a contratação deveria prosseguir normalmente, inclusive com possibilidade de prorrogação. Não houve qualquer recomendação ou ciência determinada ao órgão.",
-        "label": "Correta",
-        "evidence": "O TCU avaliou as exigências técnicas e concluiu que a contratação com a HP estava justificada, com preços aceitáveis na média do mercado. A empresa Convex apresentou questionamentos, mas o TCU rejeitou, pois as exigências técnicas eram justificáveis e a contratação deveria prosseguir normalmente, inclusive com possibilidade de prorrogação.",
+        "claim_text": "O objeto da representação era um contrato de aquisição de equipamentos de informática sem licitação, o que motivou o pedido de medida cautelar para suspender o contrato.",
+        "label": "Incorreta",
+        "evidence": "O contexto não suporta a afirmação de que o objeto da representação era um contrato de aquisição de equipamentos de informática sem licitação. De fato, a licitação foi concluída com a homologação do certame em 16/8/2024, e o contrato foi firmado em 12/9/2024 com a empresa vencedora, Simpress Comércio Locação e Serviços Ltda.",
         "summary_id": 2,
         "claim_id": 1
     },
     {
         "doc_name": "Acórdão 764 de 2025 Plenário",
-        "claim_text": "No Acórdão 764/2025, o Tribunal de Contas da União analisou um caso envolvendo a compra direta de equipamentos pelo Crea/SP, tendo sido identificado superfaturamento e ausência de pesquisa de preços. O TCU concluiu que houve dano ao erário, determinou o ressarcimento imediato pela empresa contratada e recomendou ao Crea/SP a adoção de software livre para futuras contratações, evitando a dependência de fornecedores específicos.",
-        "label": "Correta",
-        "evidence": "O superfaturamento e ausência de pesquisa de preços identificados no Acórdão 764/2025 do TCU indicam dano ao erário. No entanto, neste caso, o processo de licitação foi conduzido de acordo com a Instrução Normativa 65/2021, e a participação de empresas representantes de outros fabricantes e as cotações recebidas na fase de orçamentação indicam a possibilidade de atendimento dos requisitos por outros fabricantes, além da locação de equipamentos tecnológicos ser a solução mais adequada para atender às necessidades do Conselho, eliminando a necessidade de aquisição de bens patrimoniais e os custos associados à gestão de bens obsoletos. O TCU recomendou o uso de software livre para futuras contratações, mas neste caso, a empresa vencedora ofertou o menor lance, indicando a eficiência da decisão tomada.",
+        "claim_text": "O TCU, diante da gravidade dos fatos, concedeu a cautelar e determinou a anulação imediata do contrato.",
+        "label": "Incorreta",
+        "evidence": "O texto não apresenta evidência de que o TCU concedeu a cautelar e determinou a anulação imediata do contrato. Em vez disso, o texto apenas menciona uma representação com pedido de medida cautelar.",
         "summary_id": 2,
         "claim_id": 2
+    },
+    {
+        "doc_name": "Acórdão 764 de 2025 Plenário",
+        "claim_text": "A decisão foi unânime e com base no Acórdão 1973/2020.",
+        "label": "Correta",
+        "evidence": "A decisão foi unânime e com base no Acórdão 1.973/2020.",
+        "summary_id": 2,
+        "claim_id": 3
+    },
+    {
+        "doc_name": "Acórdão 764 de 2025 Plenário",
+        "claim_text": "A decisão identificou direcionamento explícito para a empresa Dell.",
+        "label": "Incorreta",
+        "evidence": "O contexto não apresenta evidências de direcionamento explícito para a empresa Dell. Em vez disso, o texto aponta para a HP como o único fabricante que atende às especificações exigidas para os equipamentos.",
+        "summary_id": 2,
+        "claim_id": 4
+    },
+    {
+        "doc_name": "Acórdão 764 de 2025 Plenário",
+        "claim_text": "O processo TC 024.887/2024-2 refere-se a questionamentos sobre um contrato firmado entre o Crea/SP e a empresa HP para fornecimento de notebooks por meio de dispensa de licitação.",
+        "label": "Incorreta",
+        "evidence": "O contexto não suporta a afirmação de que o processo TC 024.887/2024-2 refere-se a questionamentos sobre um contrato firmado entre o Crea/SP e a empresa HP para fornecimento de notebooks por meio de dispensa de licitação. O contexto apresenta informações sobre a licitação e o contrato firmado com a empresa Simpress Comércio Locação e Serviços Ltda., não mencionando a empresa HP ou notebooks.",
+        "summary_id": 2,
+        "claim_id": 5
+    },
+    {
+        "doc_name": "Acórdão 764 de 2025 Plenário",
+        "claim_text": "A empresa Convex alegou que os preços estavam acima da média de mercado.",
+        "label": "Incorreta",
+        "evidence": "O contexto não apresenta evidências de que os preços estavam acima da média de mercado. Em vez disso, o texto apresenta informações sobre a grande economia obtida no certame, com uma redução de mais de 40% em relação ao estimado, e que os preços obtidos se encontram similares aos contidos em outros contratos da Administração Pública.",
+        "summary_id": 2,
+        "claim_id": 6
+    },
+    {
+        "doc_name": "Acórdão 764 de 2025 Plenário",
+        "claim_text": "O TCU concluiu que todas as exigências técnicas eram justificáveis e que a contratação deveria prosseguir normalmente, inclusive com possibilidade de prorrogação.",
+        "label": "Correta",
+        "evidence": "A contratação foi celebrada com a empresa vencedora, Simpress Comércio Locação e Serviços Ltda., pelo valor mensal de R$ 496.293,10 e com prazo de vigência de 36 meses, prorrogáveis conforme a legislação vigente.",
+        "summary_id": 2,
+        "claim_id": 7
+    },
+    {
+        "doc_name": "Acórdão 764 de 2025 Plenário",
+        "claim_text": "Não houve qualquer recomendação ou ciência determinada ao órgão.",
+        "label": "Incorreta",
+        "evidence": "A reivindicação não é suportada pelo contexto. O contexto indica que a equipe de planejamento elaborou os estudos técnicos preliminares, propondo especificações para os equipamentos a serem adquiridos. Essas especificações refletiam, em tese, as necessidades do Crea/SP naquele momento, mas não acompanhavam as evoluções tecnológicas disponíveis no mercado, podendo comprometer a eficiência, a durabilidade e a qualidade dos equipamentos. Não há nenhum trecho do contexto que indique que não houve qualquer recomendação ou ciência determinada ao órgão.",
+        "summary_id": 2,
+        "claim_id": 8
+    },
+    {
+        "doc_name": "Acórdão 764 de 2025 Plenário",
+        "claim_text": "No Acórdão 764/2025, o Tribunal de Contas da União analisou um caso envolvendo a compra direta de equipamentos pelo Crea/SP.",
+        "label": "Incorreta",
+        "evidence": "O contexto não suporta a afirmação de que o Tribunal de Contas da União analisou um caso envolvendo a compra direta de equipamentos pelo Crea/SP. O caso analisado envolveu uma contratação, não uma compra direta.",
+        "summary_id": 2,
+        "claim_id": 9
+    },
+    {
+        "doc_name": "Acórdão 764 de 2025 Plenário",
+        "claim_text": "Tendo sido identificado superfaturamento e ausência de pesquisa de preços.",
+        "label": "Incorreta",
+        "evidence": "O contexto não apresenta evidências de superfaturamento ou ausência de pesquisa de preços. Em vez disso, o texto discute a possibilidade de atendimento dos requisitos por outros fabricantes além da HP e a análise técnica realizada pelo Crea/SP para garantir a compatibilidade tecnológica com as especificações exigidas.",
+        "summary_id": 2,
+        "claim_id": 10
+    },
+    {
+        "doc_name": "Acórdão 764 de 2025 Plenário",
+        "claim_text": "O TCU concluiu que houve dano ao erário.",
+        "label": "Incorreta",
+        "evidence": "O contexto não suporta a afirmação de que o TCU concluiu que houve dano ao erário. Em vez disso, o texto diz que o TCU propõe-se a indeferir o pedido de medida cautelar formulado pelo representante, o que não implica em conclusão de dano ao erário.",
+        "summary_id": 2,
+        "claim_id": 11
+    },
+    {
+        "doc_name": "Acórdão 764 de 2025 Plenário",
+        "claim_text": "Determinou o ressarcimento imediato pela empresa contratada.",
+        "label": "Incorreta",
+        "evidence": "Não há evidências de que houve determinação de ressarcimento imediato pela empresa contratada. Em vez disso, o contexto apenas discute a importância dos equipamentos para o funcionamento do Crea/SP e a possibilidade de outros fabricantes atender às especificações, mas não há qualquer menção a ressarcimento imediato.",
+        "summary_id": 2,
+        "claim_id": 12
+    },
+    {
+        "doc_name": "Acórdão 764 de 2025 Plenário",
+        "claim_text": "Recomendou ao Crea/SP a adoção de software livre para futuras contratações, evitando a dependência de fornecedores específicos.",
+        "label": "Incorreta",
+        "evidence": "O contexto não suporta a afirmação de que o Crea/SP deve adotar software livre para futuras contratações. Em vez disso, o contexto mostra que o Crea/SP analisou tecnicamente as configurações oferecidas pelos licitantes e garantiu que especificações técnicas de marcas amplamente disponíveis no mercado fossem plenamente atendidas, descartando qualquer hipótese de direcionamento.",
+        "summary_id": 2,
+        "claim_id": 13
     }
 ]
